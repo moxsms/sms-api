@@ -22,7 +22,7 @@ composer require shamim/Mox-sms-api
 And Via Bash
 
 ```
-git clone https://github.com/akasham67/Mox-sms-api.git
+git clone https://github.com/moxsms/sms-api/Mox-sms-api.git
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ require 'vendor/autoload.php';
 use MoxSMS\MoxSMSAPI;
 ```
 ### Step 2:
-set your API_KEY from `https://mywebhost.com/sms-api/info` (your application install url)
+set your API_KEY from `https://www.moxsms.com/sms-api/info`
 ```php
 $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 ```
@@ -58,11 +58,10 @@ $destination = '8801810000000';
 You have to must include Country code at beginning of the phone number.  
 
 ### Step 5:
-Replace your Install URL like `https://mywebhost.com/sms/api` with `https://Moxsms.coderpixel.com/demo/`
-`sms/api` is mandatory on your install url
+Replace your Install URL like `https://www.moxsms.com/sms/api`
 
 ```php
-$url = 'https://Moxsms.coderpixel.com/demo/sms/api';
+$url = 'https://www.moxsms.com/sms/api';
 ```
 // SMS Body
 ```php
